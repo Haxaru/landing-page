@@ -1,0 +1,192 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  margin: 0;
+  /*color palette that I'm using 
+pink: #ee98a3
+yellow: #ecbd76
+blue: #adb6d5
+beige: #efe5d9
+
+I modified the color palette so it could be seen easier with the text but those are the original colors I started out with*/
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #dd8591;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  margin: 0;
+}
+/*the list itself*/
+.links {
+  display: flex;
+  list-style: none;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+/*the actual links*/
+.links a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+.left {
+  font-size: 24px;
+  color: #f9faf8;
+}
+/* end of header editing */
+
+/* start of part-1 */
+/*background color*/
+.part-1 {
+  background: #dd8591;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* button*/
+.part-1 a {
+  color: #f9faf8;
+  text-decoration: none;
+  background-color: #adb6d5;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+/*Some of Haxar.u's Work on Instagram*/
+.big-text {
+  font-size: 60px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+/*this is the text under the bigger text*/
+.text {
+  font-size: 25px;
+  color: #e5e7eb;
+  margin-bottom: 35px;
+}
+/*this is to keep the text from taking up the whole page*/
+.part-1-left {
+  max-width: 700px;
+}
+/*tamaki picture with a border*/
+.part-1-right img {
+  border: 10px solid #adb6d5;
+  border-radius: 10px;
+}
+/*end of part-1*/
+
+/*start of part-2*/
+.title {
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+  font-weight: 800;
+  padding-top: 20px;
+  background-color: #d8b684;
+  color: #f9faf8;
+}
+/*the general layout of the images and text*/
+.part-2 {
+  display: flex;
+  justify-content: space-around;
+  background-color: #d8b684;
+  color: #f9faf8;
+  padding: 20px 100px 100px 100px;
+}
+/*the way I got the images and text to lay vertically*/
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 320px;
+}
+/*the subtext underneath the images*/
+.part-2 p {
+  font-size: 28px;
+  color: #f9faf8;
+  text-align: center;
+}
+.part-2 img {
+  border: 8px solid #dd8591;
+  border-radius: 10px;
+}
+/*end of part-2*/
+
+/*start of part-3*/
+.part-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 200px 200px 0 200px;
+  background-color: #efe5d9;
+  color: #3f3228;
+}
+/*the quote*/
+.part-3 p {
+  font-size: 36px;
+  font-weight: 300;
+  padding-bottom: 40px;
+  font-style: italic;
+  text-align: start;
+}
+/*the name of the person who said the quote*/
+.part-3 .credit {
+  padding-bottom: 150px;
+  text-align: right;
+}
+/*end of part-3*/
+
+/*start of part-4*/
+
+/*pretty sure this is just the background and text color*/
+.part-4 {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  padding: 220px;
+  background-color: #adb6d5;
+  color: #f9faf8;
+}
+
+/*this is the yellow box with the content inside of it*/
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d8b684;
+  padding: 80px 130px 80px 130px;
+  border: 10px solid #ee98a3;
+  border-radius: 20px;
+  width: 1000px;
+}
+.part-4 a {
+  color: #f9faf8;
+  text-decoration: none;
+  background-color: #adb6d5;
+  padding: 13px 13px 13px 13px;
+  border-radius: 10px;
+  border: 6px solid #ee98a3;
+}
+.left-4 {
+  max-width: 650px;
+}
+/*end of part-4*/
+
+/* start of footer */
+
+.page-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+  background-color: #dd8591;
+  padding: 40px 0 40px 0;
+  color: #f9faf8;
+}
+
+/* end of footer */
